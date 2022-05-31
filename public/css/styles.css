@@ -1,0 +1,62 @@
+.form-signin {
+  align-items: center;
+  width: 50%;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.heading {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 5px;
+  color: honeydew;
+}
+
+.user h2 {
+  font-size: 1.5rem;
+}
+
+.friends {
+  margin-top: 10px;
+}
